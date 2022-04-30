@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Sistema de Cadastro</h1>
+    <form action="pag01.html" method="POST">
+        Nome: <br> <input type="text" placeholder="Digite seu nome"/><br>
+        Sobrenome: <br> <input type="text" size="40" placeholder="Digite seu Sobrenome"><br>
+        CPF: <br> <input type="text" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="Digite seu CPF"><br>
+        Telefone: <br> <input type="tel" placeholder="Digite seu telefone"><br>
+        Data de Nascimento: <br> <input type="date"><br>
+        Logradouro: <br> <input type="text" size="60" placeholder="Nome da rua"> <br>
+        Número: <br> <input type="number" placeholder="Digite número da casa"><br>
+        Estado: <br>
+        <select>
+            <option>Selecione</option>
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>AC</option>
+        </select>
+        <br>
+
+        Sexo: <br> 
+        <input type="radio" name="sexo">Masculino
+        <input type="radio" name="sexo">Feminino
+        <input type="radio" name="sexo">Não binário<br>
+
+        Hobbies <br>
+        <input type="checkbox" name="bola" > Futebol<br>
+        <input type="checkbox" name="natacao" > Natacao<br>
+        <input type="checkbox" name="musica" > Música<br> 
+        <input type="checkbox" name="ler" > Livros<br>
+        <input type="checkbox" name="outros" > Outros<br> 
+        Color:<br>
+        <input type="color" id="head" name="head" value="#e66465"><br>
+        Mensagem:<br>
+        <textarea></textarea><br>
+
+
+    </form>
+    
+</body>
+</html>
